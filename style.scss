@@ -81,7 +81,7 @@ section#Demo{
   @include displayflex_centre();
   flex-direction: column;
     h1{
-      color: #171616;
+      color: red;
       font-size: clamp(1rem, 10vw, 10vw);
     }
     p{
@@ -90,6 +90,8 @@ section#Demo{
       margin-inline: 50px;
       font-size: clamp(1rem, 2vw, 2vw);
       min-width: fit-content;
+      font-style: italic;
+      font-weight: bold;
     }
 }
 
@@ -126,20 +128,12 @@ section#Demo{
 section#boxbox{
   height: 50vh;
   @include displayflex_centre();
-
-    .another_box{
-      h1{
-        color: white;
-      }
-    }
-}
-
-
-section#Sass_Practise{
   h1{
     color: white;
+    font-style: italic;
   }
 }
+
 
 
 

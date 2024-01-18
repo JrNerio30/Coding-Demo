@@ -66,7 +66,7 @@ section#Demo {
   flex-direction: column;
 }
 section#Demo h1 {
-  color: #171616;
+  color: red;
   font-size: clamp(1rem, 10vw, 10vw);
 }
 section#Demo p {
@@ -76,6 +76,8 @@ section#Demo p {
   font-size: clamp(1rem, 2vw, 2vw);
   min-width: -moz-fit-content;
   min-width: fit-content;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .container {
@@ -114,10 +116,7 @@ section#boxbox {
   align-items: center;
   justify-content: center;
 }
-section#boxbox .another_box h1 {
+section#boxbox h1 {
   color: white;
-}
-
-section#Sass_Practise h1 {
-  color: white;
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */

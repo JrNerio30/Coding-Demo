@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #000000;
+}
+
+header#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-block: 10px;
+  background: #000000;
+}
+header#navigation nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header#navigation img {
+  margin-left: 50px;
+  width: 114px;
+  height: 19px;
+}
+header#navigation ul {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+header#navigation ul li {
+  list-style: none;
+  padding: 10px 20px;
+}
+header#navigation ul li a {
+  color: #C8F560;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+}
+header#navigation ul li a::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #C8F560;
+  height: 3px;
+  width: 0%;
+  border-radius: 12px;
+  transition: all 300ms ease-in-out;
+}
+header#navigation ul li a:hover:before {
+  width: 100%;
+}
+
+section#Demo {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section#Demo h1 {
+  color: #171616;
+  font-size: clamp(1rem, 10vw, 10vw);
+}
+section#Demo p {
+  color: white;
+  text-align: center;
+  margin-inline: 50px;
+  font-size: clamp(1rem, 2vw, 2vw);
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .T {
+  color: black;
+  background: #C8F560;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Poppins;
+  font-style: normal;
+  margin-bottom: 10px;
+  padding: 5px 40px;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.container .T:hover {
+  background: #7862F8;
+  color: white;
+}
+.container .T:active {
+  transform: scale(0.9);
+}
+
+section#boxbox {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#boxbox .another_box h1 {
+  color: white;
+}
+
+section#Sass_Practise h1 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

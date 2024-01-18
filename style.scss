@@ -83,19 +83,20 @@ section#Demo{
     h1{
       color: #171616;
       font-size: clamp(1rem, 10vw, 10vw);
+      margin-top: 100px;
     }
     p{
       color: white;
       text-align: center;
       margin-inline: 50px;
-      font-size: clamp(1rem, 2vw, 2vw);
+      font-size: clamp(0.9rem, 2vw, 2vw);
       min-width: fit-content;
     }
 }
 
 // Buttons
 .container{
-  height: 50vh;
+  height: 40vh;
   @include displayflex_centre();
   flex-direction: column;
   gap: 10px;

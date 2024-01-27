@@ -17,10 +17,31 @@ $secondary_color:#7862F8;
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'poppins', sans-serif;
   background-color: #000000;
 }
+// Curso Trail Effect
+#cursor-ring{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #C8F560;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: all 90ms;
+    #cursor-ring.active{
+      scale: 1;
+    }
+}
+
 
 // Navigation Style
 
@@ -76,7 +97,7 @@ header#navigation{
 }
 
 // header "Coding Demo" and lorem
-section#Demo{
+main#Demo{
   height: 50vh;
   @include displayflex_centre();
   flex-direction: column;
@@ -127,13 +148,17 @@ section#Demo{
 }
 
 section#boxbox{
-  height: 50vh;
+  height: 100vh;
   @include displayflex_centre();
-  h1{
-    color: white;
-    font-style: italic;
-  }
+    h1{
+      color: white;
+      font-size: 100px;
+    }
 }
+
+
+
+
 
 
 

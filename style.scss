@@ -150,16 +150,29 @@ main#Demo{
 section#boxbox{
   height: 100vh;
   @include displayflex_centre();
-    h1{
-      color: white;
-      font-size: 100px;
+
+    .another_box{
+      h1{
+        color: white;
+      }
     }
 }
 
 
+section#Sass_Practise{
+  h1{
+    color: white;
+  }
+}
 
-
-
+footer#coding-demo-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: #7862F8;
+  color: white;
+}
 
 
 

@@ -42,15 +42,18 @@ body{
     }
 }
 
+// Change Color when scrolled
+.scrolled{
+  background-color: $secondary_color;
 
+}
 // Navigation Style
-
 header#navigation{
   position: fixed;
   top: 0;
   width: 100%;
-  padding-block:10px;
-  background: #000000;
+  padding-block:10px; 
+   transition: all 300ms;
     nav{
       display: flex;
       align-items: center;
@@ -150,19 +153,21 @@ main#Demo{
 section#boxbox{
   height: 100vh;
   @include displayflex_centre();
-
-    .another_box{
-      h1{
-        color: white;
-      }
+    h1{
+      color: white;
+      font-size: 100px;
     }
+
 }
 
 
-section#Sass_Practise{
-  h1{
-    color: white;
-  }
+section#About{
+  height: 100vh;
+  @include displayflex_centre();
+    h1{
+      color: white;
+      font-size: 100px;
+    }
 }
 
 footer#coding-demo-footer{

@@ -19,8 +19,15 @@ const full_date = [month, day, year].join('/');
         alert(full_date);
     })
 
-
-
+// Navigation change background when scroll
+const scroll = document.getElementById("navigation")
+    document.addEventListener("scroll", () => {
+        if(window.scrollY > 0){
+            scroll.classList.add("scrolled")
+        }else{
+            scroll.classList.remove("scrolled")
+        }
+    });
 
 // Christmas Tree
 function drawmeatree(height){
@@ -61,9 +68,9 @@ let result = `${footerYear} ${footerName}`;
     document.getElementById("footerStuff").outerHTML = result;
 
  
-
-
-
+console.log(1 + 1 == 2 || 1000 < 200)  
+console.log(false ? 10 : 20)
+console.log(1 !== 2)
 
 
 

@@ -61,11 +61,11 @@ drawmeatree(treeheight);
 
     
 // Footer Year
-
 let footerYear = year;
 let footerName = ("Fernando Nerio Jr");
 let result = `${footerYear} ${footerName}`;
     document.getElementById("footerStuff").outerHTML = result;
+
 
  
 console.log(1 + 1 == 2 || 1000 < 200)  

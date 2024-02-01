@@ -13,23 +13,6 @@ body {
   background-color: #000000;
 }
 
-#cursor-ring {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #C8F560;
-  mix-blend-mode: difference;
-  pointer-events: none;
-  transition: all 90ms;
-}
-#cursor-ring #cursor-ring.active {
-  scale: 1;
-}
-
 .scrolled {
   background-color: #7862F8;
 }
@@ -83,20 +66,20 @@ header#navigation ul li a:hover:before {
   width: 100%;
 }
 
-main#Demo {
-  height: 50vh;
+main#grid {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-main#Demo h1 {
-  color: red;
+main#grid h1 {
+  color: white;
   font-size: clamp(1rem, 10vw, 10vw);
   margin-top: 100px;
 }
-main#Demo p {
-  color: white;
+main#grid p {
+  color: grey;
   text-align: center;
   margin-inline: 50px;
   font-size: clamp(0.9rem, 2vw, 2vw);
@@ -106,63 +89,14 @@ main#Demo p {
   font-weight: bold;
 }
 
-.container {
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-}
-.container .T {
-  color: black;
-  background: #C8F560;
-  border-radius: 20px;
-  border: none;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: Poppins;
-  font-style: normal;
-  margin-bottom: 10px;
-  padding: 5px 40px;
-  cursor: pointer;
-  transition: all 500ms;
-}
-.container .T:hover {
-  background: #7862F8;
-  color: white;
-}
-.container .T:active {
-  transform: scale(0.9);
-}
-
-section#boxbox {
+section#section-1 {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-section#boxbox h1 {
-  color: white;
-  font-size: 100px;
-}
-
-section#About {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-section#About h1 {
-  color: white;
-  font-size: 100px;
-}
-
-footer#coding-demo-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10vh;
-  background-color: #7862F8;
-  color: white;
-}/*# sourceMappingURL=style.css.map */
+section#section-1 h2 {
+  color: grey;
+  font-size: clamp(1rem, 10vw, 5vw);
+  margin-top: 100px;
+}/*# sourceMappingURL=ToF.css.map */

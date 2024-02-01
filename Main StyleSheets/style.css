@@ -67,11 +67,14 @@ header#navigation ul li a:hover:before {
 }
 
 main#Demo {
-  height: 50vh;
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1706344813478-4516e7dc0049?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center/cover no-repeat;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 50px;
 }
 main#Demo h1 {
   color: white;
@@ -88,16 +91,13 @@ main#Demo p {
   font-style: italic;
   font-weight: bold;
 }
-
-.container {
-  height: 40vh;
+main#Demo .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 10px;
+  flex-wrap: wrap;
 }
-.container .T {
+main#Demo .container .T {
   color: black;
   background: #C8F560;
   border-radius: 20px;
@@ -110,12 +110,13 @@ main#Demo p {
   padding: 5px 40px;
   cursor: pointer;
   transition: all 500ms;
+  margin-right: 20px;
 }
-.container .T:hover {
+main#Demo .container .T:hover {
   background: #7862F8;
   color: white;
 }
-.container .T:active {
+main#Demo .container .T:active {
   transform: scale(0.9);
 }
 

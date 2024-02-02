@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #000000;
+}
+
+.scrolled {
+  background-color: #7862F8;
+}
+
+header#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-block: 10px;
+  transition: all 300ms;
+}
+header#navigation nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header#navigation img {
+  margin-left: 50px;
+  width: 114px;
+  height: 19px;
+}
+header#navigation ul {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+header#navigation ul li {
+  list-style: none;
+  padding: 10px 20px;
+}
+header#navigation ul li a {
+  color: #C8F560;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+}
+header#navigation ul li a::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #C8F560;
+  height: 3px;
+  width: 0%;
+  border-radius: 12px;
+  transition: all 300ms ease-in-out;
+}
+header#navigation ul li a:hover:before {
+  width: 100%;
+}
+
+main#grid {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main#grid h1 {
+  color: white;
+  font-size: clamp(1rem, 10vw, 10vw);
+  margin-top: 100px;
+}
+main#grid p {
+  color: grey;
+  text-align: center;
+  margin-inline: 50px;
+  font-size: clamp(0.9rem, 2vw, 2vw);
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  font-style: italic;
+  font-weight: bold;
+}
+
+section#section-1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#section-1 h2 {
+  color: grey;
+  font-size: clamp(1rem, 10vw, 5vw);
+  margin-top: 100px;
+}
+
+footer#coding-demo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: #7862F8;
+  color: white;
+  width: 100%;
+}/*# sourceMappingURL=ToF.css.map */

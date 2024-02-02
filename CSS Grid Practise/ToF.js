@@ -7,3 +7,13 @@ const scroll = document.getElementById("navigation")
             scroll.classList.remove("scrolled")
         }
     });
+
+// Footer Year
+let year = new Date(). getFullYear();
+let footerYear = year;
+let footerName = ("Fernando Nerio Jr");
+let result = `${footerYear} ${footerName}`;
+    document.getElementById("footerStuff").outerHTML = result;
+
+
+    

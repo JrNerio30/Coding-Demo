@@ -99,4 +99,14 @@ section#section-1 h2 {
   color: grey;
   font-size: clamp(1rem, 10vw, 5vw);
   margin-top: 100px;
+}
+
+footer#coding-demo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: #7862F8;
+  color: white;
+  width: 100%;
 }/*# sourceMappingURL=ToF.css.map */

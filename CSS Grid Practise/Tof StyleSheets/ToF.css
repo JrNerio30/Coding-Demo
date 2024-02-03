@@ -17,6 +17,23 @@ body {
   background-color: #7862F8;
 }
 
+#cursor-ring {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #C8F560;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: all 90ms;
+}
+#cursor-ring #cursor-ring.active {
+  scale: 1;
+}
+
 header#navigation {
   position: fixed;
   top: 0;

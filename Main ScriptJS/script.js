@@ -45,19 +45,19 @@ let treeheight = 10;
 drawmeatree(treeheight);
 
 // Cursor Trail Effect
-// const cursorRing = document.getElementById("cursor-ring")
-//     document.addEventListener("mousemove", (e) =>{
-//         requestAnimationFrame(() =>{
-//             cursorRing.style.left = `${e.clientX}px`;
-//             cursorRing.style.top = `${e.clientY}px`;
-//         });
-//     });
+const cursorRing = document.getElementById("cursor-ring")
+    document.addEventListener("mousemove", (e) =>{
+        requestAnimationFrame(() =>{
+            cursorRing.style.left = `${e.clientX}px`;
+            cursorRing.style.top = `${e.clientY}px`;
+        });
+    });
 
-// const toggleCursor = () => {
-//     cursorRing.classList.toggle("active");
-//     document.addEventListener("mousedown", toggleCursor);
-//     document.addEventListener("mouseup", toggleCursor);
-// }
+const toggleCursor = () => {
+    cursorRing.classList.toggle("active");
+    document.addEventListener("mousedown", toggleCursor);
+    document.addEventListener("mouseup", toggleCursor);
+}
 
     
 // Footer Year
@@ -66,38 +66,14 @@ let footerName = ("Fernando Nerio Jr");
 let result = `${footerYear} ${footerName}`;
     document.getElementById("footerStuff").outerHTML = result;
 
+    // let numbers = [1, 2, 3 ,4, 5];
+    // let nums = 30
+    
+// prompt("Enter Pascodeds")
+
+    
 
  
-console.log(1 + 1 == 2 || 1000 < 200)  
-console.log(false ? 10 : 20)
-console.log(1 !== 2)
-
-// Objects
-const containsAny = {
-    Micheal_Jordan: 1,
-    Lebron_James: 2,
-    Steph_Curry: 3,
-    Kyrie_Irving: 4,
-    Luka_Doncic: 5,
-}
-// For loops Iteration: Displays Names and Ranking.
-for(let any in containsAny){
-    console.log(any, containsAny[any])
-}
-
-// Null
-let variable = null 
-    if( variable == null){
-        console.log(variable)
-    }
-// Undefined
-let myVar; 
-console.log(myVar)
-
-let right = (1 + 1 == 2 && 30 > 20)
-let left = (1 + 1 >= 3 && 30 > 20)
-let operators =  (true ? left:right)
-console.log(operators)
 
 
 

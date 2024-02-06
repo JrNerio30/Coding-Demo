@@ -1,0 +1,5 @@
+@media only screen and (max-width:1050px) {
+  section#projects ul li{
+    padding: 150px 110px;
+  }
+}

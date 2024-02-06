@@ -120,11 +120,11 @@ if(MichealMoney > JamesMoney){
 
 // if you have more than two paths to choose from, you can "chain" using multiple if else or else if together.
 // Ex:1
-let yourMoney = Number(prompt("How much money you got?"))
-if(yourMoney < 100){
-    alert("YOU IS BROKE BROKE")
-}else if(yourMoney < 1000){
-    alert("YOUR'RE BROKE ASF")
-}else{
-    alert("YOUR'RE RICH RICH")
-}
+// let yourMoney = Number(prompt("How much money you got?"))
+// if(yourMoney < 100){
+//     alert("YOU IS BROKE BROKE")
+// }else if(yourMoney < 1000){
+//     alert("YOUR'RE BROKE ASF")
+// }else{
+//     alert("YOUR'RE RICH RICH")
+// }

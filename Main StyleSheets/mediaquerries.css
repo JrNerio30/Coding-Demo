@@ -1,5 +1,15 @@
 @media only screen and (max-width:1050px) {
+  main#Demo{
+    height: 120vh;
+  }
+  main#Demo p{
+    margin-bottom: 50px;
+  }
+  main#Demo .container{
+    display: flex;
+    flex-direction: column;
+  }
   section#projects ul li{
-    padding: 150px 110px;
+    padding: 100px 70px;
   }
 }

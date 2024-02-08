@@ -91,12 +91,13 @@ main#Demo {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 50px;
+  gap: 1rem;
 }
 main#Demo h1 {
   color: white;
-  font-size: clamp(1rem, 10vw, 10vw);
-  margin-top: 100px;
+  font-size: clamp(4rem, 10vw, 10vw);
+  text-align: center;
+  line-height: 100%;
 }
 main#Demo p {
   color: grey;
@@ -112,6 +113,7 @@ main#Demo .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 main#Demo .container .T {
@@ -123,11 +125,9 @@ main#Demo .container .T {
   font-weight: 700;
   font-family: Poppins;
   font-style: normal;
-  margin-bottom: 10px;
   padding: 5px 40px;
   cursor: pointer;
   transition: all 500ms;
-  margin-right: 20px;
 }
 main#Demo .container .T:hover {
   background: #7862F8;
@@ -147,9 +147,10 @@ section#projects {
   flex-direction: column;
 }
 section#projects h1 {
+  text-align: center;
   color: white;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-block: 50px;
   font-size: clamp(2rem, 10vw, 5vw);
 }
 section#projects ul {
@@ -195,8 +196,9 @@ section#About {
   justify-content: center;
 }
 section#About h1 {
+  text-align: center;
   color: white;
-  font-size: clamp(1rem, 10vw, 5vw);
+  font-size: clamp(3rem, 10vw, 5vw);
 }
 
 footer#coding-demo-footer {

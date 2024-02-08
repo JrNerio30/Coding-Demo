@@ -66,10 +66,9 @@ let footerName = ("Fernando Nerio Jr");
 let result = `${footerYear} ${footerName}`;
     document.getElementById("footerStuff").outerHTML = result;
 
-    // let numbers = [1, 2, 3 ,4, 5];
-    // let nums = 30
+
     
-// prompt("Enter Pascodeds")
+
 
     
 

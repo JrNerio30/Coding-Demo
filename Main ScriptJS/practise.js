@@ -128,3 +128,23 @@ if(MichealMoney > JamesMoney){
 // }else{
 //     alert("YOUR'RE RICH RICH")
 // }
+// Ex:2
+const age = {
+    Andrew: 15,
+    Kyle: 20,
+    Mike:30,
+}
+console.log(age)
+const yourAge = Number(prompt("How old are you?"))
+    if(yourAge < age.Andrew){
+    console.log("You're pretty young");
+    }else if(yourAge == age.Andrew){
+    console.log("You're the same age as andrew");
+    }else if(yourAge < age.Kyle){
+        console.log("You're older than Andrew but still younger than"); 
+    }else{
+        console.log("You're pretty old")
+    }
+
+
+

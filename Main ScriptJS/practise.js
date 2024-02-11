@@ -120,31 +120,77 @@ if(MichealMoney > JamesMoney){
 
 // if you have more than two paths to choose from, you can "chain" using multiple if else or else if together.
 // Ex:1
-// let yourMoney = Number(prompt("How much money you got?"))
-// if(yourMoney < 100){
-//     alert("YOU IS BROKE BROKE")
-// }else if(yourMoney < 1000){
-//     alert("YOUR'RE BROKE ASF")
-// }else{
-//     alert("YOUR'RE RICH RICH")
-// }
+// let yourMoney;
+// do{
+//     yourMoney = Number(prompt("How much money you got?"))
+//         // if the input money is less than 100
+//        if(yourMoney < 100){
+//            alert("YOU IS BROKE BROKE");
+//         // if the input money is in between 100 and 1000 but not pass 1000
+//        }else if(yourMoney < 1000){
+//        alert("YOUR'RE BROKE ASF");
+//         // if the input money is between 1000 and 2000
+//        }else if(yourMoney < 2000){
+//         alert("YOUR RICH");
+//         // if it's not input
+//        }else{
+//         alert("Damn Yo! YOUR'RE RICH RICH!")
+//        }       
+// }while(!yourMoney);
+// console.log(yourMoney)
 // Ex:2
-const age = {
-    Andrew: 15,
-    Kyle: 20,
-    Mike:30,
+// const age = {
+//     Andrew: 15,
+//     Kyle: 20,
+//     Mike:30,
+// }
+// console.log(age)
+// const yourAge = Number(prompt("How old are you?"))
+//     if(yourAge < age.Andrew){
+//     console.log("You're pretty young");
+//     }else if(yourAge == age.Andrew){
+//     console.log("You're the same age as andrew");
+//     }else if(yourAge < age.Kyle){
+//         console.log("You're older than Andrew but still younger than"); 
+//     }else{
+//         console.log("You're pretty old")
+//     }
+
+// While Loop
+// Looping control allows us to go back to some point in the program where we were before and repeat it with our current program state.
+// Ex. 1 - multiplication of 2 
+let number = 0
+while (number <= 20){
+    console.log(number);
+    number = number + 2;
 }
-console.log(age)
-const yourAge = Number(prompt("How old are you?"))
-    if(yourAge < age.Andrew){
-    console.log("You're pretty young");
-    }else if(yourAge == age.Andrew){
-    console.log("You're the same age as andrew");
-    }else if(yourAge < age.Kyle){
-        console.log("You're older than Andrew but still younger than"); 
-    }else{
-        console.log("You're pretty old")
-    }
+// Ex. 2 - 2 to the power of 5
+let count = 1;
+let counter = 0;
+
+while (counter <= 5){
+    count = count * 2
+    counter = counter + 1
+}
+console.log(count)
+// Ex. 3 - Kyle worked 40 hours in 1 one week and he gets paid 15 an hour. How much did her earn?
+let kyle = 0
+let job = 0
+while (kyle < 40){
+    kyle = kyle + 1
+    job = job + 15
+}
+console.log(job)
+// --> $600 in a week 
+
+
+// do loop:
+// let yourName;
+// do {
+//     yourName = prompt("Who are you?");
+// }while(!yourName);
+// console.log(yourName)
 
 
 
+// while with if:

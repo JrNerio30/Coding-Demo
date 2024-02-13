@@ -191,6 +191,117 @@ console.log(job)
 // }while(!yourName);
 // console.log(yourName)
 
+// Proper Indentation
+const debt = {
+    Milo: 100,
+    Miko:200,
+    Mina: 500,
+}
+
+if(debt.Mina > debt.Miko){
+    console.log("That's True");
+    if(debt.Milo !== debt.Miko + debt.Mina){
+        console.log("Tha's also True")
+    }
+}
 
 
-// while with if:
+// for loops:
+// *before the first simicolon initializes the loop, ususally by defining  binding.
+// *the second part is the expression that checks whether the loop must continue.
+// *the final part updates the state of the loop after every iteration.
+for(let numberz = 1; numberz <= 12; numberz++){
+    console.log(numberz);
+}
+
+for(let their in debt){
+    console.log(their + " debt is " + "$" + debt[their])
+}
+ 
+const cars = ["Toyota Trueno AE86,","Range Rover Sport,", "Honda NSX 1991 and","Mazda RX7"];
+let fav = "My favorite Cars: ";
+let txt = "";
+
+for(let i = 0; i < cars.length; i++){
+    txt += cars[i] + " ";
+}
+console.log(fav + txt)
+
+let rslt = 1;
+    for(let counter = 0; counter < 4; counter++){
+        rslt  = rslt  * 2;
+}
+console.log(rslt);
+
+// Breaking out of the loop
+for(let current = 20; ; current++){
+    if(current %7 == 0){
+        console.log(current);
+        break;
+    }
+}
+
+const ar = [1, 2, 3, 4, 5 ,6, 7, 8, 9, 10]
+let arr = 0
+console.log(ar)
+for(let m = 0; m <= ar.length ; m += 1){
+    if(m % 3 == 0){
+        console.log(m);
+    }
+}
+
+// Updating Bindings Succinctly
+// Instead of "counter = counter + 1", a shortcut is "counter += 1" or even short: "counter++"
+for(let l = 0; l <= 12; l += 2){
+    console.log(l);
+}
+
+// Dispatching on a value with switching
+// switch (prompt("What is the weather like?")){
+//     case "rainy":
+//         alert("Don't forget to bring an Umbrella.")
+//         break;
+//     case "sunny":
+//         alert("Remember to put on sunscreen.");
+//         break;
+//     case "cloudy":
+//         alert("Well, can't do anything about it.");
+//         break;
+//     case "snowy":
+//         alert("Stay inside and stay warm to avoid being sick.")
+//         break;
+//     default:
+//         alert("What is that weather? \nAnswer only sunny, rainy, cloudy or snowy. \nPlease and thank you.");
+//         break;
+// }
+
+// Capitalization and Comments
+/* fuzzylittleturtle = hard to read
+   fuzzyLittleTurtle = the right way 
+*/
+// Comments are very very important for human readers.
+
+// Exercises:
+// Triangle
+console.log("Triangle");
+for(let triangle = '*'; triangle.length <= 10; triangle += '*'){
+    console.log(triangle)
+}
+/* First Attempt */
+console.log("FizzBuzz Interview Question");
+for(let fb = 1; fb <= 100; fb++){
+    let op = "";
+    if(fb %3 == 0) op += "Fizz";
+    if(fb %5 == 0) op += "Buzz";
+    console.log(op || fb)
+}
+/* Solution */
+// for(let n = 1; n <= 100; n++){
+//     let output = "";
+//     if(n %3 == 0) output += "Fizz";
+//     if(n %5 == 0) output += "Buzz";
+//     console.log(output || n)
+// }
+
+
+

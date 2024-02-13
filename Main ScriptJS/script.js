@@ -66,6 +66,32 @@ let footerName = ("Fernando Nerio Jr");
 let result = `${footerYear} ${footerName}`;
     document.getElementById("footerStuff").outerHTML = result;
 
+// Project List
+const projects = [
+    "CSS GRID",
+    "Project 2",
+    "Project 3",
+    "Project 4",
+    "Project 5",
+    "Project 6"
+];
+
+const projectList = document.getElementById("projectList")
+
+projects.forEach(project =>{
+    const li = document.createElement("li");
+    const h2 = document.createElement("h2");
+    const a = document.createElement("a");
+
+    a.href = "Tof.html"
+
+    projectList.appendChild(a);
+    a.appendChild(li);
+    li.appendChild(h2);
+    h2.textContent = project
+});
+
+
 
     
 

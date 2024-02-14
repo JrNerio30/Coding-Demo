@@ -46,28 +46,28 @@ header#navigation nav {
   align-items: center;
   justify-content: space-between;
 }
-header#navigation img {
+header#navigation nav img {
   margin-left: 50px;
   width: 114px;
   height: 19px;
 }
-header#navigation ul {
+header#navigation nav ul {
   display: flex;
   align-items: center;
   margin-right: 50px;
 }
-header#navigation ul li {
+header#navigation nav ul li {
   list-style: none;
   padding: 10px 20px;
 }
-header#navigation ul li a {
+header#navigation nav ul li a {
   color: #C8F560;
   font-size: 20px;
   text-decoration: none;
   font-weight: 600;
   position: relative;
 }
-header#navigation ul li a::before {
+header#navigation nav ul li a::before {
   content: "";
   position: absolute;
   top: 30px;
@@ -79,7 +79,7 @@ header#navigation ul li a::before {
   border-radius: 12px;
   transition: all 300ms ease-in-out;
 }
-header#navigation ul li a:hover:before {
+header#navigation nav ul li a:hover:before {
   width: 100%;
 }
 

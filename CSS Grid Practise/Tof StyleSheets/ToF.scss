@@ -24,7 +24,7 @@ body{
 }
 
 .scrolled{
-  background-color: $secondary_color;
+  background-color: black;
 }
 
 // Cursor Trail Effect
@@ -101,6 +101,8 @@ main#grid{
   height: 100vh;
   @include displayflex_centre();
   flex-direction: column;
+  background: url(/Image/wallpaperEngine.gif) center/cover no-repeat; 
+  background-attachment: fixed;
     h1{
       color: white;
       font-size: clamp(1rem, 10vw, 10vw);

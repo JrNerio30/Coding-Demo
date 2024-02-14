@@ -14,7 +14,7 @@ body {
 }
 
 .scrolled {
-  background-color: #7862F8;
+  background-color: black;
 }
 
 #cursor-ring {
@@ -89,6 +89,8 @@ main#grid {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: url(/Image/wallpaperEngine.gif) center/cover no-repeat;
+  background-attachment: fixed;
 }
 main#grid h1 {
   color: white;

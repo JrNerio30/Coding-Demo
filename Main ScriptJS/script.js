@@ -78,18 +78,18 @@ const projects = [
 
 const projectList = document.getElementById("projectList")
 
-projects.forEach(project =>{
-    const li = document.createElement("li");
-    const h2 = document.createElement("h2");
-    const a = document.createElement("a");
+// projects.forEach(project =>{
+//     const li = document.createElement("li");
+//     const h2 = document.createElement("h2");
+//     const a = document.createElement("a");
 
-    a.href = "Tof.html"
+//     a.href = "Tof.html"
 
-    projectList.appendChild(a);
-    a.appendChild(li);
-    li.appendChild(h2);
-    h2.textContent = project
-});
+//     projectList.appendChild(a);
+//     a.appendChild(li);
+//     li.appendChild(h2);
+//     h2.textContent = project
+// });
 
 
 

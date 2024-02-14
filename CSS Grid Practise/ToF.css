@@ -89,7 +89,7 @@ main#grid {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url(/Image/wallpaperEngine.gif) center/cover no-repeat;
+  background: url(../Image/wallpaperEngine.gif) center/cover no-repeat;
   background-attachment: fixed;
 }
 main#grid h1 {

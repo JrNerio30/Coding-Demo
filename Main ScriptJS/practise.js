@@ -284,7 +284,7 @@ for(let l = 0; l <= 12; l += 2){
 // Exercises:
 // Triangle
 console.log("Triangle");
-for(let triangle = '*'; triangle.length <= 10; triangle += '*'){
+for(let triangle = '#'; triangle.length <= 10; triangle += '#'){
     console.log(triangle)
 }
 /* First Attempt */
@@ -303,5 +303,33 @@ for(let fb = 1; fb <= 100; fb++){
 //     console.log(output || n)
 // }
 
+// Chessboard
 
+// NOT THIS!!
+// const chessBoard = 
+// ` # # # #
+// \n# # # # 
+// \n # # # #
+// \n# # # #
+// \n # # # #
+// \n# # # #
+// \n # # # #
+// \n# # # # 
+// `
+// console.log(chessBoard)
+
+// SOLUTION!!
+let size = 8;
+let board = "";
+for(let y = 0; y < size; y++){
+    for(let x = 0; x < size; x++){
+     if((x+y) %2 == 0){
+        board += " ";
+    }else{
+        board += "#";
+    }
+  }
+ board +="\n"
+}
+console.log(board)
 

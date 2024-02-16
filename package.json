@@ -1,0 +1,14 @@
+{
+  "name": "coding-demo",
+  "version": "1.0.0",
+  "description": "Coding Demo is a Coding Practise for me to utilize all of the skills and new line codes that I've Learned Including HTML5, SCSS/CSS, and Javascript and many more.\r https://jrnerio30.github.io/Coding-Demo/\r ## Made with\r [![My Skills](https://skillicons.dev/icons?i=js,html,css,scss)](https://skillicons.dev)\r ## Contributing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

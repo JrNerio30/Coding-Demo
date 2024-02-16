@@ -139,54 +139,38 @@ main#Demo .container .T:active {
 
 section#projects {
   min-height: 100vh;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 50px;
   flex-direction: column;
 }
 section#projects h1 {
+  align-self: center;
   text-align: center;
   color: white;
   font-weight: bold;
   margin-block: 50px;
-  font-size: clamp(2rem, 10vw, 5vw);
+  font-size: clamp(2rem, 10vw, 6vw);
 }
-section#projects ul {
+section#projects li {
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
-section#projects ul a {
-  color: #C8F560;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 10px 20px;
-  background-color: #000000;
-  border-radius: 50px;
-}
-section#projects ul li {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 150px 180px;
-  background-color: #7862F8;
-  border-radius: 10px;
+section#projects li a {
+  margin-block: 30px;
   text-align: center;
-  cursor: pointer;
-  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
-  transition: all 400ms;
-}
-section#projects ul li:hover {
-  box-shadow: 0px 0px 30px 2px rgb(255, 255, 255);
-}
-section#projects ul li h2 {
   color: #C8F560;
   font-weight: bold;
+  font-size: clamp(2rem, 10vw, 4vw);
+  text-decoration: none;
+  color: #C8F560;
+  transition: all 400ms ease-in-out;
+}
+section#projects li a:hover {
+  text-decoration: underline;
+  font-size: clamp(2rem, 10vw, 6vw);
 }
 
 section#About {

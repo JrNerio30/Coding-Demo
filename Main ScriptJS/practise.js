@@ -396,4 +396,11 @@ const hummus = function(factor){
 
 console.log(hummus(1))
 
+// Declaration Notation
+// console.log(nums(12)) --> Still works in the Top
+function nums (x){
+    return x * x; 
+}
+console.log(nums(12))
+
 

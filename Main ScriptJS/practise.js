@@ -333,3 +333,67 @@ for(let y = 0; y < size; y++){
 }
 console.log(board)
 
+// Functions
+// "x" is the parameter
+const square = function(x){
+    if(y = 20){
+        
+        return y * x;
+    }
+}
+
+console.log(square(12))
+
+// Function with no parameters
+const makeNoise = function(){
+    console.log("Ping!");
+}
+
+makeNoise();
+
+// multiple parameters
+
+const power = function(base, exponent){
+  let result = 1;
+  for(let count = 0; count < exponent; count++ ){
+    result *= base;
+  }
+  return result;  
+}
+console.log(power(2, 10));
+
+// Bindings and Scopes
+let q = 10;
+if(true){
+  let sum = 100
+  var c = 50
+  console.log(q + sum + c)
+}
+
+const halve = function(n){
+  return n / 2;
+}
+let n = 10;
+console.log(halve(100));
+console.log(n)
+
+// Nested Scopes
+const hummus = function(factor){
+  const ingridient = function(amount, unit, name) {
+    let ingridientAmount = amount + factor;
+    if(ingridientAmount > 1){
+      unit += "s"
+    }
+    console.log(`${ingridientAmount} ${unit} ${name}`);
+  };
+  ingridient(1, "can", "chickpeas");
+  ingridient(0.25, "cup", "tahini");
+  ingridient(0.25, "cup", "lemon juice");
+  ingridient(1, "clove", "garlic");
+  ingridient(2, "tablespoon", "olive oil");
+  ingridient(0.5, "teaspoon", "cumin");
+};
+
+console.log(hummus(1))
+
+

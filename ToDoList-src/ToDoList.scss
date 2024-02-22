@@ -1,3 +1,72 @@
+@mixin display-flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 html, body{
   background-color: black;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  @include display-flex-center();
+  min-height: 100vh;
+  flex-direction: column;
+  h1{
+    color: white;
+    font-weight: 600;
+    font-size: 5rem;
+    text-decoration: underline;
+  }
+  .container{
+    @include display-flex-center();
+    flex-direction: column;
+    list-style: none;
+    gap: 2rem;
+    .list{
+      display: flex;
+      gap: 1rem;
+      input[type=text]{
+        outline: none;
+        font-size: 1.2rem;
+        width: 18rem;
+        border: none;
+        &:hover{
+          -webkit-box-shadow: 0px 0px 32px 0px rgba(255, 255, 255, 1);
+          -moz-box-shadow: 0px 0px 32px 0px rgba(255, 255, 255, 1);
+          box-shadow: 0px 0px 32px 0px rgba(255, 255, 255, 1);
+        }
+      }
+      input[type=checkbox]{
+        cursor: pointer;
+        margin-top: 0.3rem;
+        width: 2rem;
+        height: 2rem;
+        transition: all 300ms ease-in-out;
+        &:hover{
+          -webkit-box-shadow: 0px 0px 32px 0px rgba(255, 255, 255, 1);
+          -moz-box-shadow: 0px 0px 32px 0px rgba(255, 255, 255, 1);
+          box-shadow: 0px 0px 32px 0px rgba(255, 255, 255, 1);
+        }
+      }
+      button{
+        background-color: black;
+        border: rgb(87, 86, 86) 0.2rem dashed;
+        color: rgb(87, 86, 86);
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: 0.5rem 5.6rem;
+        cursor: pointer;
+        transition: all 500ms ease-in-out;
+        &:hover{
+          color: white;
+          border: white 0.2rem dashed;
+        }
+      }
+    }
+  }
 }

@@ -32,3 +32,5 @@ const dollars = function(money: number){
   bigMacs(0, "BigMac")
 }
 console.log(dollars(20))
+
+// Add more and practise more

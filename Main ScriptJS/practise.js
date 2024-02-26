@@ -120,11 +120,27 @@ if(MichealMoney > JamesMoney){
 
 // if you have more than two paths to choose from, you can "chain" using multiple if else or else if together.
 // Ex:1
-let yourMoney = Number(prompt("How much money you got?"))
-if(yourMoney < 100){
-    alert("YOU IS BROKE BROKE")
-}else if(yourMoney < 1000){
-    alert("YOUR'RE BROKE ASF")
-}else{
-    alert("YOUR'RE RICH RICH")
+// let yourMoney = Number(prompt("How much money you got?"))
+// if(yourMoney < 100){
+//     alert("YOU IS BROKE BROKE")
+// }else if(yourMoney < 1000){
+//     alert("YOUR'RE BROKE ASF")
+// }else{
+//     alert("YOUR'RE RICH RICH")
+// }
+
+// Ex:
+const age = {
+    Curtis: 10, 
+    Kyle: 20, 
+    Andrew: 30,
 }
+const yourAge = Number(prompt("How old are you?"));
+if(Number < age.Curtis){
+    console.log("You're younger than Curtis.")
+}else if(Number < age.Kyle){
+    console.log("You're older than Curtis but younger than Kyle.");
+}else{
+    console.log("Your're older than Curtis, Kyle and Andrew.")
+}
+x

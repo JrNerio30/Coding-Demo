@@ -4,6 +4,7 @@ Coding Demo is a Coding Practise for me to utilize all of the skills and new lin
 https://jrnerio30.github.io/Coding-Demo/
 ## Made with
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,scss,tailwindcss)](https://skillicons.dev)
+* I also learnt and use **Gsap JavaScript Animations**.
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first

@@ -403,4 +403,15 @@ function nums (x){
 }
 console.log(nums(12))
 
+// use Strict mode
+
+
+"use strict";
+
+undecraled = 40
+console.log(undecraled) // Throws ReferenceError
+
+// No Strict Mode
+another = 30
+console.log(another)
 

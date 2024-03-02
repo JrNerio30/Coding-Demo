@@ -9,6 +9,15 @@ https://jrnerio30.github.io/Coding-Demo/
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
+```
+git clone https://github.com/JrNerio30/Coding-Demo.git\
+```
+```
+git add
+```
+```
+git commit -m "feat: <features added>"
+```
 
 Please make sure to update tests as appropriate.
 

@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "nippo", sans-serif;
   background-color: #000000;
 }
 
@@ -64,7 +64,6 @@ header#navigation nav ul li a {
   color: #C8F560;
   font-size: 20px;
   text-decoration: none;
-  font-weight: 600;
   position: relative;
 }
 header#navigation nav ul li a::before {
@@ -85,7 +84,7 @@ header#navigation nav ul li a:hover:before {
 
 main#Demo {
   height: 100vh;
-  background: url(../Image/wallpaperEngine.gif) center/cover no-repeat;
+  background: url(../Image/Coding.gif) center/cover no-repeat;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -100,14 +99,12 @@ main#Demo h1 {
   line-height: 100%;
 }
 main#Demo p {
-  color: grey;
+  color: white;
   text-align: center;
   margin-inline: 50px;
   font-size: clamp(0.9rem, 2vw, 2vw);
   min-width: -moz-fit-content;
   min-width: fit-content;
-  font-style: italic;
-  font-weight: bold;
 }
 main#Demo .container {
   display: flex;
@@ -123,7 +120,7 @@ main#Demo .container .T {
   border: none;
   font-size: 20px;
   font-weight: 700;
-  font-family: Poppins;
+  font-family: "nippo";
   font-style: normal;
   padding: 5px 40px;
   cursor: pointer;

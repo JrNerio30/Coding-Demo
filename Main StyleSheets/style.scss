@@ -21,7 +21,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  font-family: 'poppins', sans-serif;
+  font-family: 'nippo', sans-serif;
   background-color: #000000;
 }
 
@@ -73,7 +73,6 @@ header#navigation{
             color: $lime_green;
             font-size: 20px;
             text-decoration: none;
-            font-weight: 600;
             position: relative;
 
           &::before{
@@ -100,7 +99,7 @@ header#navigation{
 // header "Coding Demo" and lorem
 main#Demo{
   height: 100vh;
-  background: url(../Image/wallpaperEngine.gif) center/cover no-repeat; 
+  background: url(../Image/Coding.gif) center/cover no-repeat; 
   background-attachment: fixed;
   @include displayflex_centre();
   flex-direction: column;
@@ -112,13 +111,11 @@ main#Demo{
     line-height: 100%;
   }
   p{
-    color: grey;
+    color: white;
     text-align: center;
     margin-inline: 50px;
     font-size: clamp(0.9rem, 2vw, 2vw);
     min-width: fit-content;
-    font-style: italic;
-    font-weight: bold;
   }
   .container{
     @include displayflex_centre();
@@ -131,7 +128,7 @@ main#Demo{
       border: none;
       font-size: 20px;
       font-weight: 700;
-      font-family: Poppins;
+      font-family: 'nippo';
       font-style: normal;
       padding: 5px 40px;
       cursor: pointer;

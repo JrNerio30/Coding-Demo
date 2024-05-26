@@ -1,4 +1,4 @@
-<h1>Hello World</h1>
+
 # Coding Demo
 
 Coding Demo is a Coding Practise for me to utilize all of the skills and new line codes that I've Learned Including HTML5, SCSS/CSS, and Javascript and many more.
